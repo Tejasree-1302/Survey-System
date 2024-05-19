@@ -1,0 +1,35 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0; 
+}
+header {
+background-color: #4CAF50; 
+padding: 20px;
+text-align: center;
+color: #fff;
+}
+main {
+ padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+h1, h2 {
+margin: 0;
+}
+.question-container, .answer-container {
+flex-basis: 45%;
+}
+textarea {
+height: 150px;
+width: 100%; 
+margin-bottom: 10px;
+padding: 10px;
+}
+button {
+padding: 10px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+cursor: pointer;
+}
